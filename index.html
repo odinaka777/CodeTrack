@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>CodeTrack - Week 2 Assignment</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>CodeTrack — Week 2 Assignment</h1>
+<footer id="mini-finance-footer">
+  Mini Finance v1.0 — Deployed on <span id="deploy-date"></span> — By Odinaka Moses Dialah
+</footer>
 
-  <p><strong>Completed by:</strong> Moses Dialah &nbsp;|&nbsp; odi4dialah@gmail.com</p>
-
-  <h2>Tasks completed</h2>
-  <ul>
-    <li>Added <code>index.html</code></li>
-    <li>Added <code>style.css</code></li>
-    <li>Copied contents from pravinmishraaws Week-2 repo</li>
-    <li>Updated the page heading and author info</li>
-  </ul>
-
-  <p>Refresh this page in your browser after you save to see the changes.</p>
-</body>
-</html>
+<script>
+  // Get today's date in DD Mon YYYY format
+  const today = new Date();
+  const options = { day: '2-digit', month: 'short', year: 'numeric' };
+  const formattedDate = today.toLocaleDateString('en-GB', options);
+  
+  // Set the date in the footer
+  document.getElementById('deploy-date').textContent = formattedDate;
+</script>

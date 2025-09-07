@@ -228,4 +228,21 @@ body {
 }
 h1 {
   color: blue;
+}.site-footer {
+  font-size: 14px;
+  padding: 12px 16px;
+  text-align: center;
+  background: #f2f4f6;
+  color: #222;
+  margin-top: 24px;
 }
+#mini-finance-footer {
+  text-align: center;       
+  font-size: 14px;          
+  color: #333;              
+  padding: 10px 0;          
+  border-top: 1px solid #ccc; 
+  background-color: #f9f9f9;  
+  font-family: Arial, sans-serif;
+}
+
