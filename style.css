@@ -1,18 +1,85 @@
-#mini-finance-footer {
-  text-align: center;           /* Center the text */
-  font-size: 13px;              /* Slightly smaller font for subtlety */
-  color: #111;                  /* Dark color for high contrast */
-  background-color: #f9f9f9;   /* Light background for readability */
-  padding: 12px 0;              /* Vertical spacing */
-  border-top: 1px solid #ccc;   /* Subtle separation from page content */
+body {
   font-family: Arial, sans-serif;
-  line-height: 1.5;             /* Better spacing for readability */
+  margin: 0;
+  padding: 0;
 }
 
-/* Responsive adjustments for mobile */
-@media (max-width: 600px) {
-  #mini-finance-footer {
-    font-size: 12px;            /* Slightly smaller on narrow screens */
-    padding: 10px 0;
-  }
+.hero {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: #198754;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  background: #146c43;
+}
+
+.job-listings {
+  padding: 20px;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.job-card h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-block;
+  background: #198754;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.apply-btn {
+  background: #198754;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #146c43;
+}
+
+.site-footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.site-footer a {
+  color: #198754;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }

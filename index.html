@@ -1,13 +1,41 @@
-<footer id="mini-finance-footer">
-  Mini Finance v1.0 — Deployed on <span id="deploy-date"></span> — By Odinaka Moses Dialah
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gotto Job</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Find your next role, fast.</h1>
+    <a href="#jobs" class="btn-primary">Browse Jobs</a>
+  </header>
 
-<script>
-  // Get today's date in DD Mon YYYY format
-  const today = new Date();
-  const options = { day: '2-digit', month: 'short', year: 'numeric' };
-  const formattedDate = today.toLocaleDateString('en-GB', options);
-  
-  // Set the date in the footer
-  document.getElementById('deploy-date').textContent = formattedDate;
-</script>
+  <!-- Job Listings Section -->
+  <main id="jobs" class="job-listings">
+    <div class="job-card">
+      <h2>Frontend Developer</h2>
+      <span class="badge">REMOTE</span>
+      <p>Posted on 08 Sep 2025</p>
+      <button class="apply-btn">Apply Now</button>
+    </div>
+
+    <div class="job-card">
+      <h2>Backend Engineer</h2>
+      <p>Posted on 08 Sep 2025</p>
+      <button class="apply-btn">Apply Now</button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Gotto Job</p>
+    <nav>
+      <a href="about.html">About</a> | 
+      <a href="contact.html">Contact</a>
+    </nav>
+  </footer>
+</body>
+</html>
